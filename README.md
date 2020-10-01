@@ -3,3 +3,5 @@ This project allows for the front-end component setup for the AWS Workshop that 
 We thank https://html5up.net/ for graciously providing free themes on their website. This project uses parts of the Story theme.
 
 We thank Unsplash for their image of Seattle: https://unsplash.com/photos/fqPzCNyVVhA
+
+We thank Zyro's AI Content Generator for the content generated on this page: https://zyro.com/ai/content-generator
