@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ghc2020newsbulletin-dev-121441-authRole",
+      "UnauthRoleArn": "arn:aws:iam::483123017938:role/amplify-ghc2020newsbulletin-dev-121441-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::483123017938:role/amplify-ghc2020newsbulletin-dev-121441-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-ghc2020newsbulletin-dev-121441-deployment",
+      "UnauthRoleName": "amplify-ghc2020newsbulletin-dev-121441-unauthRole",
+      "StackName": "amplify-ghc2020newsbulletin-dev-121441",
+      "StackId": "arn:aws:cloudformation:us-west-2:483123017938:stack/amplify-ghc2020newsbulletin-dev-121441/5cd780e0-041a-11eb-8aaa-06581a2dbce1",
+      "AmplifyAppId": "drxxkfb4ntgcb"
+    }
+  }
+}
