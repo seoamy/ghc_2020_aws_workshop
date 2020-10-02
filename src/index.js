@@ -70,6 +70,10 @@ const Home = () => {
                 <img src="images/seattle.jpg" alt="" />
             </div>
         </section>
+<<<<<<< HEAD
+=======
+
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
         {
         stories.map(story => {
               return <Section orient={story.orient} title={story.title} content={story.content} id={story.id} />
@@ -82,6 +86,7 @@ const Home = () => {
                 <div className="items style1 medium onscroll-fade-in">
                     <section>
                         <span className="icon style2 major fa-gem"></span>
+<<<<<<< HEAD
                         <h3>Get Italian Food Delivered at Home</h3>
                         <p>We serve traditional pasta dishes such as baked chicken or beef pot dumplings, truffled cheese croquettes or salamis olives – all made fresh to order on a wooden platter which can be shared!</p>
                     </section>
@@ -138,6 +143,64 @@ const Home = () => {
                     <section>
                         <span className="icon solid style2 major fa-leaf"></span>
                         <h3>Seattle's Lorem ipsum dolor</h3>
+=======
+                        <h3>Lorem</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span className="icon solid style2 major fa-save"></span>
+                        <h3>Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span className="icon solid style2 major fa-chart-bar"></span>
+                        <h3>Dolor</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span className="icon solid style2 major fa-wifi"></span>
+                        <h3>Amet</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span className="icon solid style2 major fa-cog"></span>
+                        <h3>Magna</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span className="icon style2 major fa-paper-plane"></span>
+                        <h3>Tempus</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span className="icon solid style2 major fa-desktop"></span>
+                        <h3>Aliquam</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span className="icon solid style2 major fa-sync-alt"></span>
+                        <h3>Elit</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span className="icon solid style2 major fa-hashtag"></span>
+                        <h3>Morbi</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span className="icon solid style2 major fa-bolt"></span>
+                        <h3>Turpis</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span className="icon solid style2 major fa-envelope"></span>
+                        <h3>Ultrices</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+                    </section>
+                    <section>
+                        <span className="icon solid style2 major fa-leaf"></span>
+                        <h3>Risus</h3>
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
                     </section>
                 </div>

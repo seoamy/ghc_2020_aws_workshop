@@ -17,6 +17,15 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
       "dependsOn": []
+<<<<<<< HEAD
+=======
+    },
+    "readStory": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": []
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
     }
   },
   "api": {
@@ -47,6 +56,23 @@
           ]
         }
       ]
+<<<<<<< HEAD
+=======
+    },
+    "readStory": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "readStory",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
     }
   }
 }

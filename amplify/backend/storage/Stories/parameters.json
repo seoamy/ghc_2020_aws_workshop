@@ -1,5 +1,9 @@
 {
     "tableName": "Stories",
+<<<<<<< HEAD
     "partitionKeyName": "id",
+=======
+    "partitionKeyName": "ID",
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
     "partitionKeyType": "S"
 }

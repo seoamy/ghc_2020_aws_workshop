@@ -68,8 +68,13 @@
         "Layers": [],
         "Timeout": "25",
         "Code": {
+<<<<<<< HEAD
           "S3Bucket": "amplify-ghc2020newsbulletin-dev-121441-deployment",
           "S3Key": "amplify-builds/readStories-764e476c612f45356631-build.zip"
+=======
+          "S3Bucket": "amplify-test1project-dev-142651-deployment",
+          "S3Key": "amplify-builds/readStories-6f48447a694f34543845-build.zip"
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
         }
       }
     },
@@ -79,12 +84,20 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
+<<<<<<< HEAD
             "ghc2020newsbulletinLambdaRole126fe1dc",
+=======
+            "test1projectLambdaRole65b36811",
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
             {
               "Fn::Join": [
                 "",
                 [
+<<<<<<< HEAD
                   "ghc2020newsbulletinLambdaRole126fe1dc",
+=======
+                  "test1projectLambdaRole65b36811",
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
                   "-",
                   {
                     "Ref": "env"
@@ -128,6 +141,34 @@
           "Version": "2012-10-17",
           "Statement": [
             {
+<<<<<<< HEAD
+=======
+              "Sid": "ReadWriteTable",
+              "Effect": "Allow",
+              "Action": [
+                "dynamodb:BatchGetItem",
+                "dynamodb:GetItem",
+                "dynamodb:Query",
+                "dynamodb:Scan",
+                "dynamodb:BatchWriteItem",
+                "dynamodb:PutItem",
+                "dynamodb:UpdateItem"
+              ],
+              "Resource": "arn:aws:dynamodb:*:*:table/Stories-dev"
+            },
+            {
+              "Sid": "s3Access",
+              "Action": [
+                "s3:*"
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                "arn:aws:s3:::ghc2020-test1",
+                "arn:aws:s3:::ghc2020-test1/*"
+              ]
+            },
+            {
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
               "Effect": "Allow",
               "Action": [
                 "logs:CreateLogGroup",

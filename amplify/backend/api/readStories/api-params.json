@@ -19,8 +19,13 @@
     "privacy": {
         "auth": 0,
         "unauth": 0,
+<<<<<<< HEAD
         "authRoleName": "amplify-ghc2020newsbulletin-dev-121441-authRole",
         "unAuthRoleName": "amplify-ghc2020newsbulletin-dev-121441-unauthRole"
+=======
+        "authRoleName": "amplify-test1project-dev-142651-authRole",
+        "unAuthRoleName": "amplify-test1project-dev-142651-unauthRole"
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
     },
     "dependsOn": [
         {

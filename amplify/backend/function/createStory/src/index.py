@@ -6,7 +6,11 @@ import uuid
 import json
 
 TABLE_STORIES = "Stories-dev"
+<<<<<<< HEAD
 S3_BUCKET_NAME="amplify-amy-ghc-2020-news-bulletin"
+=======
+S3_BUCKET_NAME = "<YOUR_S3_BUCKET_NAME>"
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
 
 def handler(event, context):
 
@@ -45,4 +49,8 @@ def handler(event, context):
   return {
     'statusCode': 200,
     'body': json.dumps('Story created successfully!')
+<<<<<<< HEAD
   }
+=======
+  }
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0

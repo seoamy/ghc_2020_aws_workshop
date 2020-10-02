@@ -68,8 +68,13 @@
         "Layers": [],
         "Timeout": "25",
         "Code": {
+<<<<<<< HEAD
           "S3Bucket": "amplify-ghc2020newsbulletin-dev-121441-deployment",
           "S3Key": "amplify-builds/createStory-686c386f5762676a526f-build.zip"
+=======
+          "S3Bucket": "amplify-test1project-dev-142651-deployment",
+          "S3Key": "amplify-builds/createStory-74754c47716b68596572-build.zip"
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
         }
       }
     },
@@ -79,12 +84,20 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
+<<<<<<< HEAD
             "ghc2020newsbulletinLambdaRole0f2a66da",
+=======
+            "test1projectLambdaRolee4222d3d",
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
             {
               "Fn::Join": [
                 "",
                 [
+<<<<<<< HEAD
                   "ghc2020newsbulletinLambdaRole0f2a66da",
+=======
+                  "test1projectLambdaRolee4222d3d",
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
                   "-",
                   {
                     "Ref": "env"
@@ -148,8 +161,13 @@
               ],
               "Effect": "Allow",
               "Resource": [
+<<<<<<< HEAD
                 "arn:aws:s3:::amplify-amy-ghc-2020-news-bulletin",
                 "arn:aws:s3:::amplify-amy-ghc-2020-news-bulletin/*"
+=======
+                "arn:aws:s3:::ghc2020-test1",
+                "arn:aws:s3:::ghc2020-test1/*"
+>>>>>>> b6a5faf07d82f15f5e5f988f0f9b262c19f723b0
               ]
             },
             {
